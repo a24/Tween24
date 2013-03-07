@@ -1,7 +1,9 @@
-Tween24 2.1α
+Tween24
 =======
 
 Tween24 is Tween library for ActionScript 3
+
+**lastest version:** 2.1α
 
 [http://package.a24.cat/tween24/](http://package.a24.cat/tween24/)
 
@@ -27,7 +29,8 @@ Flashコンテンツを作る上で欠かせないトゥイーンライブラリ
 
 [download source code](https://github.com/a24/Tween24/archive/master.zip)
 
-###メソッドチェーンで、新感覚コーディング
+メソッドチェーンで、新感覚コーディング
+----------------------------------------
 
 ```as3
 // 例）Tweenerの場合
@@ -45,7 +48,8 @@ Tween24.tween(target, 1, Ease24._Linear).xy(100, 200).blur(16, 16).play();
 * ASDocなどのドキュメントを読まなくても、補完リストで全ての機能を大体把握することができます。
 * 一つのメソッドで複数のプロパティを設定できるので、コードを簡潔に書くことができます。
 
-###動作パフォーマンス
+動作パフォーマンス
+---------------------------
 
 [こちら](http://wonderfl.net/c/u6MS)のベンチマークを元に、パフォーマンス検証しました。
 
