@@ -3,7 +3,7 @@ Tween24
 
 Tween24 is Tween library for ActionScript 3
 
-**lastest version:** 2.1α
+**lastest version:** 2.0.1
 
 [http://package.a24.cat/tween24/](http://package.a24.cat/tween24/)
 
@@ -47,12 +47,3 @@ Tween24.tween(target, 1, Ease24._Linear).xy(100, 200).blur(16, 16).play();
 * 補完機能によりプロパティ名などを覚える必要がなく、タイプミスもなくなります。
 * ASDocなどのドキュメントを読まなくても、補完リストで全ての機能を大体把握することができます。
 * 一つのメソッドで複数のプロパティを設定できるので、コードを簡潔に書くことができます。
-
-動作パフォーマンス
----------------------------
-
-[こちら](http://wonderfl.net/c/u6MS)のベンチマークを元に、パフォーマンス検証しました。
-
-![パフォーマンス](http://package.a24.cat/assets/20111124/bench.jpg)
-
-環境によって差はあると思いますが、上の表のような感じになりました。パーティクルなどシビアにパフォーマンスを求められる場合はBetweenAS3やKTweenを使った方がいいと思いますが、そうでなければ問題なく使えるレベルだと思います。
